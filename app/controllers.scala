@@ -5,6 +5,9 @@ import play.mvc._
 
 object Application extends Controller {
     
-    def index = Template
+    def index = {
+      info("Index page has been requested")
+      Template
+    }
     
 }
